@@ -57,7 +57,7 @@ export const mailController = new MailController();
 //         const messageOptions = {
 //         body: 'Esto es un sms de prueba',
 //         from: TWILIO_PHONE_NUMBER,
-//         to: '+5491136228024',
+//         to: '+', //Agrego telefono para recibir mensaje
 //         };
 //     try {
 //         const result = await this.client.messages.create(messageOptions);
